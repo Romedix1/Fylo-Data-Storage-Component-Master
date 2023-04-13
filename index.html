@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;800;900&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css" type="text/css">
+  
+  <title>Frontend Mentor | Fylo data storage component</title>
+</head>
+<body>
+
+  <section id="container">
+    <header id="top-content">
+      <section id="logo-section">
+        <img src="images/logo.svg" alt="logo icon">
+      </section>
+
+      <nav id="header-nav-section">
+        <img class="nav-icons" src="images/icon-document.svg" alt="document icon">
+        <img class="nav-icons" src="images/icon-folder.svg" alt="folder icon">
+        <img class="nav-icons" src="images/icon-upload.svg" alt="upload icon">
+      </nav>
+    </header>
+
+    <main id="bottom-content">
+      <p id="how-much-used">You’ve used <span id="used-amount">0 GB</span> of your storage</p>
+
+      <input min="0" max="1000" value="0" type="range">
+      <section id="min-and-max-section">
+        <p class="min-max-value">0 GB</p>
+
+        <p class="min-max-value">1000 GB</p>
+      </section>
+
+      <section id="how-much-left">
+        <p id="how-much-left-text"><span id="how-much-left-amount">1000</span>GB LEFT</p>
+      </section>
+    </main>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
